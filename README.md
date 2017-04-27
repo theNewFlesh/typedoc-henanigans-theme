@@ -1,17 +1,12 @@
-# Default themes for TypeDoc
+# Clarity theme for TypeDoc
 
-This module contains the default themes of TypeDoc.
-Visit http://typedoc.org/ to learn more about TypeDoc.
+[TypeDoc](http://typedoc.io/) is a documentation generator for TypeScript projects.
 
+## Usage
 
-## Contributing
+```bash
+$ npm install typedoc typedoc-clarity-theme --save-dev
+$ node_modules/.bin/typedoc --theme node_modules/typedoc-clarity-theme/bin --out doc path/to/ts/dir
+```
 
-Contributions are welcome and appreciated. You can find TypeDoc on GitHub, feel free to start
-an issue or create a pull requests:<br>
-[https://github.com/TypeStrong/typedoc](https://github.com/TypeStrong/typedoc)
-
-
-## License
-
-Copyright (c) 2015 [Sebastian Lenz](http://www.sebastian-lenz.de).<br>
-Licensed under the Apache License 2.0.
+See TypeDoc documentation (http://typedoc.io/) to learn more about TypeDoc.
