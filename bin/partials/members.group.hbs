@@ -2,7 +2,9 @@
     <h2>{{title}}</h2>
     {{#each children}}
         {{#unless hasOwnDocument}}
-            {{> member}}
+            {{#unless inheritedFrom}}
+                {{> member}}
+            {{/unless}}
         {{/unless}}
     {{/each}}
 </section>
