@@ -12,18 +12,11 @@
         {{> member.declaration}}
     {{/if}}{{/if}}
 
-    {{#unless isContainer}}
-        {{#each groups}}
-            {{#each children}}
-                {{#unless hasOwnDocument}}
-                    {{> member}}
-                {{/unless}}
-            {{/each}}
+    {{#each groups}}
+        {{#each children}}
+            {{#unless hasOwnDocument}}
+                {{> member}}
+            {{/unless}}
         {{/each}}
-    {{/unless}}
+    {{/each}}
 </section>
-
-{{#if isContainer}}
-    {{> index}}
-    {{> members}}
-{{/if}}
