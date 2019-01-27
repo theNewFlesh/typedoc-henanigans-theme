@@ -57,7 +57,7 @@ dfn { font-style: italic; }
 hr { box-sizing: content-box; height: 0; }
 
 /** Address styling not present in IE 6/7/8/9. */
-mark { background: #E8EA7E; color: #040404; }
+mark { background: #E9EABE; color: #040404; }
 
 /** Address margins set differently in IE 6/7. */
 p, pre { margin: 1em 0; }
@@ -160,10 +160,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .hljs-comment, .hljs-annotation, .hljs-template_comment, .diff .hljs-header, .hljs-chunk, .apache .hljs-cbracket { color: #242424; }
 
-.hljs-keyword, .hljs-id, .hljs-built_in, .css .smalltalk .hljs-class, .hljs-winutils, .bash .hljs-variable, .tex .hljs-command, .hljs-request, .hljs-status, .nginx .hljs-title { color: #5F95DE; }
+.hljs-keyword, .hljs-id, .hljs-built_in, .css .smalltalk .hljs-class, .hljs-winutils, .bash .hljs-variable, .tex .hljs-command, .hljs-request, .hljs-status, .nginx .hljs-title { color: #93B6E6; }
 
-.xml .hljs-tag { color: #5F95DE; }
-.xml .hljs-tag .hljs-value { color: #5F95DE; }
+.xml .hljs-tag { color: #93B6E6; }
+.xml .hljs-tag .hljs-value { color: #93B6E6; }
 
 .hljs-string, .hljs-title, .hljs-parent, .hljs-tag .hljs-value, .hljs-rules .hljs-value { color: #242424; }
 
@@ -172,14 +172,14 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .hljs-template_tag, .django .hljs-variable, .hljs-addition, .hljs-flow, .hljs-stream, .apache .hljs-tag, .hljs-date, .tex .hljs-formula, .coffeescript .hljs-attribute { color: #F77E70; }
 
-.ruby .hljs-string, .hljs-decorator, .hljs-filter .hljs-argument, .hljs-localvars, .hljs-array, .hljs-attr_selector, .hljs-pseudo, .hljs-pi, .hljs-doctype, .hljs-deletion, .hljs-envvar, .hljs-shebang, .hljs-preprocessor, .hljs-pragma, .userType, .apache .hljs-sqbracket, .nginx .hljs-built_in, .tex .hljs-special, .hljs-prompt { color: #5F95DE; }
+.ruby .hljs-string, .hljs-decorator, .hljs-filter .hljs-argument, .hljs-localvars, .hljs-array, .hljs-attr_selector, .hljs-pseudo, .hljs-pi, .hljs-doctype, .hljs-deletion, .hljs-envvar, .hljs-shebang, .hljs-preprocessor, .hljs-pragma, .userType, .apache .hljs-sqbracket, .nginx .hljs-built_in, .tex .hljs-special, .hljs-prompt { color: #93B6E6; }
 
 .hljs-phpdoc, .hljs-javadoc, .hljs-xmlDocTag { color: #5D5D7A; }
 
 .vhdl .hljs-typename { font-weight: bold; }
 .vhdl .hljs-string { color: #5D5D7A; }
 .vhdl .hljs-literal { color: #F77E70; }
-.vhdl .hljs-attribute { color: #5F95DE; }
+.vhdl .hljs-attribute { color: #93B6E6; }
 
 .xml .hljs-attribute { color: #F77E70; }
 
@@ -696,13 +696,13 @@ footer .tsd-legend { display: inline-block; width: 25%; padding: 0; font-size: 1
 @media (min-width: 901px) and (max-width: 1024px) { .tsd-index-panel ul.tsd-index-list { -webkit-column-count: 2; -moz-column-count: 2; -ms-column-count: 2; -o-column-count: 2; column-count: 2; } }
 .tsd-index-panel ul.tsd-index-list li { -webkit-column-break-inside: avoid; -moz-column-break-inside: avoid; -ms-column-break-inside: avoid; -o-column-break-inside: avoid; column-break-inside: avoid; -webkit-page-break-inside: avoid; -moz-page-break-inside: avoid; -ms-page-break-inside: avoid; -o-page-break-inside: avoid; page-break-inside: avoid; }
 .tsd-index-panel a, .tsd-index-panel .tsd-parent-kind-module a { color: #AC92DE; }
-.tsd-index-panel .tsd-parent-kind-interface a { color: #8BD155; }
-.tsd-index-panel .tsd-parent-kind-enum a { color: #EB9E58; }
-.tsd-index-panel .tsd-parent-kind-class a { color: #5F95DE; }
+.tsd-index-panel .tsd-parent-kind-interface a { color: #A0D17B; }
+.tsd-index-panel .tsd-parent-kind-enum a { color: #EBB483; }
+.tsd-index-panel .tsd-parent-kind-class a { color: #93B6E6; }
 .tsd-index-panel .tsd-kind-module a { color: #AC92DE; }
-.tsd-index-panel .tsd-kind-interface a { color: #8BD155; }
-.tsd-index-panel .tsd-kind-enum a { color: #EB9E58; }
-.tsd-index-panel .tsd-kind-class a { color: #5F95DE; }
+.tsd-index-panel .tsd-kind-interface a { color: #A0D17B; }
+.tsd-index-panel .tsd-kind-enum a { color: #EBB483; }
+.tsd-index-panel .tsd-kind-class a { color: #93B6E6; }
 .tsd-index-panel .tsd-is-private a { color: #808080; }
 
 .tsd-flag { display: inline-block; padding: 1px 5px; border-radius: 4px; color: #040404; background-color: #808080; text-indent: 0; font-size: 14px; font-weight: normal; }
