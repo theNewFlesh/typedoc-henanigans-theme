@@ -6,7 +6,7 @@
 
 ```bash
 $ npm install typedoc typedoc-henanigans-theme --save-dev
-$ node_modules/.bin/typedoc --theme node_modules/typedoc-henanigans-theme/bin --out doc path/to/ts/dir
+$ node_modules/.bin/typedoc --theme node_modules/typedoc-henanigans-theme/bin/default --out doc path/to/ts/dir
 ```
 
 See TypeDoc documentation (http://typedoc.io/) to learn more about TypeDoc.
