@@ -1,22 +1,23 @@
 <div class="tsd-signature tsd-kind-icon">{{#compact}}
-    {{{wbr name}}}<span class="tsd-signature-symbol">{{#if isOptional}}?{{/if}}:</span>&nbsp;{{#with type}}{{>type}}{{/with}}
+    {{{wbr name}}}<span class="tsd-signature-symbol">{{#if isOptional}}?{{/if}}:</span>&nbsp;{{#with
+    type}}{{>type}}{{/with}}
     {{#if defaultValue}}
-        <span class="tsd-signature-symbol">
+    <span class="tsd-signature-symbol">
         &nbsp;=&nbsp;
         {{defaultValue}}
-        </span>
+    </span>
     {{/if}}
-{{/compact}}</div>
-
-{{> member.sources}}
+    {{/compact}}</div>
 
 {{> comment}}
 
+{{> member.sources}}
+
 {{#if type.declaration}}
-    <div class="tsd-type-declaration">
-        <h4>Type declaration</h4>
-        {{#with type.declaration}}
-            {{> parameter}}
-        {{/with}}
-    </div>
+<div class="tsd-type-declaration">
+    <h4>Type declaration</h4>
+    {{#with type.declaration}}
+    {{> parameter}}
+    {{/with}}
+</div>
 {{/if}}
