@@ -1,19 +1,19 @@
 {
-  "name": "typedoc-henanigans-theme",
-  "version": "0.1.0",
-  "description": "A custom typedoc theme employing the Henanigans color scheme",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/theNewFlesh/typedoc-henanigans-theme.git"
-  },
-  "author": "Alex Braun",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/theNewFlesh/typedoc-henanigans-theme/issues"
-  },
-  "homepage": "https://github.com/theNewFlesh/typedoc-henanigans-theme#readme"
+    "name": "typedoc-henanigans-theme",
+    "version": "0.1.1",
+    "description": "A custom typedoc theme employing the Henanigans color scheme",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/theNewFlesh/typedoc-henanigans-theme.git"
+    },
+    "author": "Alex Braun",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/theNewFlesh/typedoc-henanigans-theme/issues"
+    },
+    "homepage": "https://github.com/theNewFlesh/typedoc-henanigans-theme#readme"
 }
