@@ -611,6 +611,8 @@ pre code { padding: 0; font-size: 100%; background-color: #343434; }
 .tsd-typography h5, .tsd-typography h6 { font-weight: normal; }
 .tsd-typography p, .tsd-typography ul, .tsd-typography ol { margin: 1em 0; }
 
+.tsd-comment.tsd-typography { color: #A4A4A4; }
+
 @media (min-width: 901px) and (max-width: 1024px) { html.default .col-content { width: 72%; }
   html.default .col-menu { width: 28%; }
   html.default .tsd-navigation { padding-left: 10px; } }
@@ -681,7 +683,7 @@ dl.tsd-comment-tags p { margin: 0; }
 
 footer { border-top: 0px solid #B6ECF3; background-color: #191919; }
 footer.with-border-bottom { border-bottom: 2px solid #B6ECF3; }
-footer .tsd-legend-group { font-size: 0; background: #23232E}
+footer .tsd-legend-group { font-size: 0; background: #23292F}
 footer .tsd-legend { display: inline-block; width: 25%; padding: 0; font-size: 16px; list-style: none; line-height: 1.333em; vertical-align: top; }
 @media (max-width: 900px) { footer .tsd-legend { width: 50%; } }
 
@@ -712,7 +714,7 @@ footer .tsd-legend { display: inline-block; width: 25%; padding: 0; font-size: 1
 .tsd-member { position: relative; }
 .tsd-member .tsd-anchor + h3 { margin-top: 0; margin-bottom: 0; border-bottom: none; }
 
-.col-4.col-menu.menu-sticky-wrap.menu-highlight { background: #23232E; }
+.col-4.col-menu.menu-sticky-wrap.menu-highlight { background: #23292F; }
 
 .tsd-navigation { padding: 0 0 0 40px; }
 .tsd-navigation a { display: block; padding-top: 2px; padding-bottom: 2px; border-left: 0px solid transparent; color: #A4A4A4; text-decoration: none; transition: border-left-color 0.1s; }
@@ -774,14 +776,14 @@ footer .tsd-legend { display: inline-block; width: 25%; padding: 0; font-size: 1
 #tsd-search .field label { position: absolute; overflow: hidden; right: -40px; }
 #tsd-search .field input, #tsd-search .title { transition: opacity 0.2s; }
 #tsd-search .results { position: absolute; visibility: hidden; top: 40px; width: 100%; margin: 0; padding: 0; list-style: none; box-shadow: 0 0 4px rgba(0, 0, 0, 0.25); }
-#tsd-search .results li { padding: 0 10px; background-color: #23232E; }
-#tsd-search .results li:nth-child(even) { background-color: #2B2B3A; }
+#tsd-search .results li { padding: 0 10px; background-color: #23292F; }
+#tsd-search .results li:nth-child(even) { background-color: #2B333A; }
 #tsd-search .results li.state { display: none; }
-#tsd-search .results li.current, #tsd-search .results li:hover { background-color: #393946; }
+#tsd-search .results li.current, #tsd-search .results li:hover { background-color: #393F46; }
 #tsd-search .results a { display: block; }
 #tsd-search .results a:before { top: 10px; }
 #tsd-search .results span.parent { color: #F4F4F4; font-weight: normal; }
-#tsd-search.has-focus { background-color: #2B2B3A; }
+#tsd-search.has-focus { background-color: #2B333A; }
 #tsd-search.has-focus .field input { top: 0; opacity: 1; }
 #tsd-search.has-focus .title { z-index: 0; opacity: 0; }
 #tsd-search.has-focus .results { visibility: visible; }
@@ -798,6 +800,8 @@ footer .tsd-legend { display: inline-block; width: 25%; padding: 0; font-size: 1
 .tsd-signature-symbol { color: #808080; font-weight: normal; }
 
 .tsd-signature-type { font-style: italic; font-weight: normal; }
+span.tsd-signature-type { color: #DE958E; }
+a.tsd-signature-type { color: #B6ECF3; }
 
 .tsd-signature.tsd-kind-icon { background: #23292F; }
 
@@ -823,12 +827,12 @@ ul.tsd-parameters > li.tsd-parameter-siganture, ul.tsd-type-parameters > li.tsd-
 ul.tsd-parameters h5, ul.tsd-type-parameters h5 { font-size: 16px; margin: 1em 0 0.5em 0; }
 ul.tsd-parameters .tsd-comment, ul.tsd-type-parameters .tsd-comment { margin-top: -0.5em; }
 
-.tsd-sources { font-size: 14px; color: #808080; margin: 0 0 1em 0; }
-.tsd-sources a { color: #808080; text-decoration: underline; }
+.tsd-sources { font-size: 14px; color: #666666; margin: 0 0 1em 0; }
+.tsd-sources a { color: #62AAB5; text-decoration: underline; }
 .tsd-sources ul, .tsd-sources p { margin: 0 !important; }
 .tsd-sources ul { list-style: none; padding: 0; }
 
-.tsd-page-toolbar { position: fixed; z-index: 1; top: 0; left: 0; width: 100%; height: 40px; color: #93B6E6; background: #23232E; border-bottom: 2px solid #B6ECF3; }
+.tsd-page-toolbar { position: fixed; z-index: 1; top: 0; left: 0; width: 100%; height: 40px; color: #93B6E6; background: #23292F; border-bottom: 1px solid #B6ECF3; }
 .tsd-page-toolbar a { color: #7EC4CF; text-decoration: none; }
 .tsd-page-toolbar a.title { font-weight: bold; }
 .tsd-page-toolbar a.title:hover { text-decoration: underline; }
