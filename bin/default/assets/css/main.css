@@ -772,6 +772,7 @@ footer .tsd-legend { display: inline-block; width: 25%; padding: 0; font-size: 1
 .tsd-panel.tsd-index-panel { padding-top: 0px; }
 
 .tsd-panel.tsd-member { padding-top: 0px; }
+section.tsd-panel.tsd-member.tsd-kind-variable.tsd-parent-kind-object-literal { padding-left: 20px; padding-right: 0px; }
 
 .tsd-panel-group { margin: 60px 0; }
 .tsd-panel-group > h1, .tsd-panel-group > h2, .tsd-panel-group > h3 { padding-left: 20px; padding-right: 20px; }
