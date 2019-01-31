@@ -1,6 +1,6 @@
 {
     "name": "typedoc-henanigans-theme",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "A custom typedoc theme employing the Henanigans color scheme",
     "main": "index.js",
     "scripts": {
